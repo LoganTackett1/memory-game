@@ -1,0 +1,24 @@
+:root {
+  --card-wrapper-width: 0;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid: 1fr 5fr/ 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.card-wrapper {
+  width: var(--card-wrapper-width);
+  height: var(--card-wrapper-width);
+
+  display: grid;
+  grid: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
